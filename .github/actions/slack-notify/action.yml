@@ -10,7 +10,7 @@ inputs:
 runs:
   using: 'composite'
 
-  step:
+  steps:
     - name: Send slack
       shell: bash
       run: |
