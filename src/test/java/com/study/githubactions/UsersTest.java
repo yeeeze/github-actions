@@ -17,7 +17,7 @@ class UsersTest {
     UserService userService;
 
     @Test
-    @DisplayName("성공 테스트")
+    @DisplayName("성공 테스트0")
     void findAll() {
         List<Users> all = userService.findAll();
 
